@@ -2,13 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="debc771d-abc4-443c-ae4f-d6bdf57ad8c9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sass_stdlib.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ri_movies.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/asc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/desc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jwplayer.flash.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/dewplayer-bubble-vol.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/dewplayer-mini.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/player_mp3_maxi.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/video/jwplayer.flash.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/comedy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/drama.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/karaoke.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/movie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/music.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/video.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/lib_default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/lib_loader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/lib_menu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/lib_video.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/comment_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/menu_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/video_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/partials/play.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/upload_video.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/view_all.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/karaoke.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/modal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/play.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/public/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/admin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/ad_music.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/blockUI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.tablesorter.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jwplayer.html5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jwplayer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/sk_core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/sk_video.js" />
+      <change type="DELETED" beforePath="C:\Users\RITHY\Documents\GitHub\ri_movies\application\views\include\header.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\RITHY\Documents\GitHub\ri_movies\assets\css\sk_admin.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin/music.php" afterPath="$PROJECT_DIR$/application/controllers/admin/music.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin/video.php" afterPath="$PROJECT_DIR$/application/controllers/admin/video.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Controller.php" afterPath="$PROJECT_DIR$/application/core/MY_Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/lib_music.php" afterPath="$PROJECT_DIR$/application/libraries/lib_music.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/music_model.php" afterPath="$PROJECT_DIR$/application/models/music_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/sidebar.php" afterPath="$PROJECT_DIR$/application/views/admin/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/include/footer.php" afterPath="$PROJECT_DIR$/application/views/include/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/public/topbar.php" afterPath="$PROJECT_DIR$/application/views/public/topbar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/welcome_message.php" afterPath="$PROJECT_DIR$/application/views/welcome_message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/sk_admin.js" afterPath="$PROJECT_DIR$/assets/js/sk_admin.js" />
     </list>
     <ignored path="ri_movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,6 +73,107 @@
     <disable_hints />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="karaoke.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/karaoke.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="41" selection-start="1081" selection-end="1094" vertical-scroll-proportion="-2.6153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="karaoke.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/karaoke.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="28" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.73333335">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sk_core.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/sk_core.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="72" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#157#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="topbar.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/public/topbar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="21" selection-start="74" selection-end="82" vertical-scroll-proportion="-1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib_video.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/libraries/lib_video.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="143" column="91" selection-start="3750" selection-end="3750" vertical-scroll-proportion="-4.7647057">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/video_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="130" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-7.1568627">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/video.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="45" selection-start="892" selection-end="892" vertical-scroll-proportion="-20.923077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MY_Controller.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="112" selection-start="1770" selection-end="1770" vertical-scroll-proportion="-13.269231">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sk_video.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/sk_video.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="37" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="play.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/play.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="28" selection-start="997" selection-end="997" vertical-scroll-proportion="16.346153">
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -33,6 +181,28 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
+        <option value="$PROJECT_DIR$/application/controllers/drama.php" />
+        <option value="$PROJECT_DIR$/application/controllers/movie.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Music.php" />
+        <option value="$PROJECT_DIR$/application/controllers/comedy.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/video.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/upload_video.php" />
+        <option value="$PROJECT_DIR$/application/controllers/video.php" />
+        <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
+        <option value="$PROJECT_DIR$/application/models/video_model.php" />
+        <option value="$PROJECT_DIR$/application/libraries/lib_video.php" />
+        <option value="$PROJECT_DIR$/application/controllers/karaoke.php" />
+        <option value="$PROJECT_DIR$/application/views/public/topbar.php" />
+        <option value="$PROJECT_DIR$/assets/js/sk_core.js" />
+        <option value="$PROJECT_DIR$/application/views/play.php" />
+        <option value="$PROJECT_DIR$/application/views/karaoke.php" />
+      </list>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -67,7 +237,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -86,8 +255,149 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ri_movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ri_movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="video" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ri_movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ri_movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ri_movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ri_movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ri_movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ri_movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ri_movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ri_movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ri_movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ri_movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ri_movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ri_movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ri_movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ri_movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -100,30 +410,39 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
-  <component name="PublishConfig" serverName="ri_movies_stage" serverId="c3b9efbc-5615-40d2-88bd-5b88dc61f7ee" autoUpload="true">
+  <component name="PublishConfig" serverName="ri_movies_stage" serverId="72b3c1d5-af6c-44ed-8b74-1d2752744ee8" autoUpload="true">
     <servers>
-      <server id="c3b9efbc-5615-40d2-88bd-5b88dc61f7ee">
+      <server id="72b3c1d5-af6c-44ed-8b74-1d2752744ee8">
         <serverdata>
           <mappings>
-            <mapping deploy="\" local="$USER_HOME$/Desktop/ri_movies_stage" web="" />
+            <mapping deploy="\" local="$PROJECT_DIR$" web="\" />
           </mappings>
-          <excludedPaths>
-            <ExcludedPath>
-              <option name="path" value="\" />
-            </ExcludedPath>
-          </excludedPaths>
         </serverdata>
       </server>
     </servers>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\RITHY\Documents\GitHub\ri_movies\assets\js" />
+      <recent name="C:\Users\RITHY\Documents\GitHub\ri_movies\assets\music" />
+      <recent name="C:\Users\RITHY\Documents\GitHub\ri_movies\assets" />
+      <recent name="C:\Users\RITHY\Documents\GitHub\ri_movies\assets\css" />
+      <recent name="C:\Users\RITHY\Documents\GitHub\ri_movies\assets\font" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\RITHY\Documents\GitHub\ri_movies" />
+      <recent name="C:\Users\RITHY\Documents\GitHub\ri_movies\assets\js" />
+      <recent name="C:\Users\RITHY\Documents\GitHub\ri_movies\assets\video" />
+      <recent name="C:\Users\RITHY\Documents\GitHub\ri_movies\assets\music" />
+      <recent name="C:\Users\RITHY\Documents\GitHub\ri_movies\assets\img" />
+      <recent name="C:\Users\RITHY\Documents\GitHub\ri_movies\application\views\admin" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.ri_movies">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="c3b9efbc-5615-40d2-88bd-5b88dc61f7ee" server_name="ri_movies">
@@ -168,22 +487,22 @@
     <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.49695587" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.49695587" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.49695587" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.49695587" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.6700337" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25342464" sideWeight="0.6700337" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.6700337" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24581431" sideWeight="0.6700337" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.4977169" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.4977169" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -240,6 +559,129 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/music.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="43" selection-start="1229" selection-end="1320" vertical-scroll-proportion="-13.730769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/upload_video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="44" selection-start="1755" selection-end="1761" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/public/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="48" selection-start="280" selection-end="289" vertical-scroll-proportion="0.26003823">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/welcome_message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="14" selection-start="2022" selection-end="2022" vertical-scroll-proportion="0.26666668">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="68" selection-start="74" selection-end="74" vertical-scroll-proportion="3.9615386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="48" selection-start="1145" selection-end="1236" vertical-scroll-proportion="0.7801147">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/sk_video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="37" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="112" selection-start="1770" selection-end="1770" vertical-scroll-proportion="-13.269231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/video_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="130" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-7.1568627">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/lib_video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="91" selection-start="3750" selection-end="3750" vertical-scroll-proportion="-4.7647057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/public/topbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="21" selection-start="74" selection-end="82" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/sk_core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="72" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#157#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="45" selection-start="892" selection-end="892" vertical-scroll-proportion="-20.923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/play.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="28" selection-start="997" selection-end="997" vertical-scroll-proportion="16.346153">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/karaoke.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="41" selection-start="1081" selection-end="1094" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/karaoke.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="28" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.73333335">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
 

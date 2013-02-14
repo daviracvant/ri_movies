@@ -18,6 +18,22 @@ $config['base_url']	= '';
 
 /*
 |--------------------------------------------------------------------------
+| Content Delivery Network URL
+|--------------------------------------------------------------------------
+|
+| Loading content like .js, .png, .css files on a CDN is much better. 
+| This allows you to support CDNs.
+|
+|	http://example.com/
+|
+| Use the normal base_url() function and upload your /assets and /content
+| to the CDN. 
+|
+*/
+$config['cdn_url']	= '';
+
+/*
+|--------------------------------------------------------------------------
 | Index File
 |--------------------------------------------------------------------------
 |
@@ -34,7 +50,7 @@ $config['index_page'] = 'index.php';
 |--------------------------------------------------------------------------
 |
 | This item determines which server global should be used to retrieve the
-| URI string.  The default setting of 'AUTO' works for most servers.
+| URI string.  The default settings of 'AUTO' works for most servers.
 | If your links do not seem to work, try one of the other delicious flavors:
 |
 | 'AUTO'			Default - auto detects
@@ -88,7 +104,7 @@ $config['charset'] = 'UTF-8';
 |--------------------------------------------------------------------------
 |
 | If you would like to use the 'hooks' feature you must enable it by
-| setting this variable to TRUE (boolean).  See the user guide for details.
+| settings this variable to TRUE (boolean).  See the user guide for details.
 |
 */
 $config['enable_hooks'] = FALSE;
@@ -167,7 +183,7 @@ $config['directory_trigger']	= 'd'; // experimental not currently in use
 |
 | If you have enabled error logging, you can set an error threshold to
 | determine what gets logged. Threshold options are:
-| You can enable error logging by setting a threshold over zero. The
+| You can enable error logging by settings a threshold over zero. The
 | threshold determines what gets logged. Threshold options are:
 |
 |	0 = Disables logging, Error logging TURNED OFF
@@ -224,7 +240,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = md5("ri_movies");
 
 /*
 |--------------------------------------------------------------------------
@@ -244,15 +260,15 @@ $config['encryption_key'] = '';
 | 'sess_time_to_update'		= how many seconds between CI refreshing Session Information
 |
 */
-$config['sess_cookie_name']		= 'ci_session';
-$config['sess_expiration']		= 7200;
+$config['sess_cookie_name']		= 'ie_admin_sessions';
+$config['sess_expiration']		= 43200;
 $config['sess_expire_on_close']	= FALSE;
-$config['sess_encrypt_cookie']	= FALSE;
+$config['sess_encrypt_cookie']	= TRUE;
 $config['sess_use_database']	= FALSE;
-$config['sess_table_name']		= 'ci_sessions';
+$config['sess_table_name']		= 'ie_sessions';
 $config['sess_match_ip']		= FALSE;
 $config['sess_match_useragent']	= TRUE;
-$config['sess_time_to_update']	= 300;
+$config['sess_time_to_update']	= 43200;
 
 /*
 |--------------------------------------------------------------------------
@@ -356,7 +372,6 @@ $config['rewrite_short_tags'] = FALSE;
 |
 */
 $config['proxy_ips'] = '';
-
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */
