@@ -1,20 +1,72 @@
 <div class="container">
-    <div class="hero-unit">
-        Test;
+    <div id="myCarousel" class="carousel slide">
+        <div style="padding-bottom: 30px;">
+            <a class="pull-right btn btn-mini" href="#myCarousel" data-slide="next"><i
+                    class="icon-step-forward"></i></a>
+            <a class="pull-right btn btn-mini" href="#myCarousel" data-slide="prev" style="margin-right: 5px"><i
+                    class="icon-step-backward"></i></a>
+        </div>
+        <div class="carousel-inner">
+            <center>
+                <div class="item active">
+                    <img src="<?=base_url('assets/img/slide1.jpg')?>" alt="">
+
+                    <div class="carousel-caption">
+                        <h4>Khmer Music</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="<?=base_url('assets/img/slide2.jpg')?>" alt="">
+
+                    <div class="carousel-caption">
+                        <h4>Chinese Drama</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="<?=base_url('assets/img/slide3.png')?>" alt="">
+
+                    <div class="carousel-caption">
+                        <h4>Thai Drama</h4>
+                    </div>
+                </div>
+            </center>
+        </div>
     </div>
-	<h1>Welcome to CodeIgniter!</h1>
-	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
-
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
-	</div>
-
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
+    <div class="row-fluid">
+        <legend>What's New</legend>
+        <div class="span3" style="margin-left:0px;">
+            <div class="info-column">
+                <img class="img-rounded" src="<?=$karaoke->thumbnail?>" alt="">
+                <p>
+                    <a href="<?=base_url('video/play/'. $karaoke->id)?>"><?=$karaoke->title?></a>
+                    <br/>by:
+                    <a href="#"><?=$karaoke->first_name?> <?=$karaoke->last_name?></a>
+                    <span class="pull-right"><?=date("F d Y", $karaoke->created_on)?></span>
+                </p>
+                <a class="btn btn-primary" href="#">Learn More »</a>
+            </div>
+        </div>
+        <div class="span3">
+            <div class="info-column">
+                <img class="img-rounded" src="assets/team-2.jpg" alt="">
+                <p>Get a handle on your finances the free and fast way. Mint does all the work of organizing and categorizing your spending for you. See where every dime goes and make money.</p>
+                <a class="btn btn-primary" href="#">Learn More »</a>
+            </div>
+        </div>
+        <div class="span3">
+            <div class="info-column">
+                <img class="img-rounded" src="assets/team-3.jpg" alt="">
+                <p>Just click on what you want to accomplish with your money. Mint gives you the simple steps for getting there, along with free advice, gentle reminders, and encouragement.</p>
+                <a class="btn btn-primary" href="#">Learn More »</a>
+            </div>
+        </div>
+        <div class="span3">
+            <div class="info-column">
+                <img class="img-rounded" src="assets/team-4.jpg" alt="">
+                <p>It’s easier to stick to a budget designed for your lifestyle. Mint automatically creates one tailored just for you and keeps you on track with email and mobile alerts.</p>
+                <a class="btn btn-primary" href="#">Learn More »</a>
+            </div>
+        </div>
+    </div>
 </div>
 

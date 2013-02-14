@@ -106,25 +106,40 @@
 
 <!-- Start Main Menu -->
 <ul class="nav-mainmenu" id="nav-mainmenu">
-        <li class="accordion-group">
-            <a data-toggle="collapse" data-parent="#nav-mainmenu" href="#user" id="menu_user" class="menu_icon">
-                <span class="icon iconfa-user"></span><span class="text">User</span></a>
-            <ul class="nav-submenu collapse" id="user">
-                <li><a class="sub_menu_item" id="submenu_profile" href='<?=base_url("admin/user/edit_profile")?>'>
-                    <i class="iconfa-edit"></i> Profile</a></li>
-            </ul>
-        </li>
+    <li class="accordion-group">
+        <a data-toggle="collapse" data-parent="#nav-mainmenu" href="#user" id="menu_user" class="menu_icon">
+            <span class="icon iconfa-user"></span><span class="text">User</span></a>
+        <ul class="nav-submenu collapse" id="user">
+            <li><a class="sub_menu_item" id="submenu_profile" href='<?=base_url("admin/user/edit_profile")?>'>
+                <i class="iconfa-edit"></i> Profile</a></li>
+        </ul>
+    </li>
 
     <li class="accordion-group">
         <a data-toggle="collapse" data-parent="#nav-mainmenu" href="#music" id="menu_music" class="menu_icon">
             <span class="icon iconfa-music"></span><span class="text">Music</span></a>
         <ul class="nav-submenu collapse" id="music">
             <li>
-                <a class="sub_menu_item" id="submenu_view_music" href="#">
+                <a class="sub_menu_item" id="submenu_view_music" href="<?=base_url('admin/music/view_all')?>">
                 <i class="iconfa-folder-open"></i> View All</a>
             </li>
             <li>
                 <a class="sub_menu_item" id="submenu_upload_music" href="<?=base_url('admin/music/upload')?>">
+                    <i class="iconfa-upload"></i> Upload</a>
+            </li>
+
+        </ul>
+    </li>
+    <li class="accordion-group">
+        <a data-toggle="collapse" data-parent="#nav-mainmenu" href="#video" id="menu_video" class="menu_icon">
+            <span class="icon iconfa-play"></span><span class="text">Video</span></a>
+        <ul class="nav-submenu collapse" id="video">
+            <li>
+                <a class="sub_menu_item" id="submenu_view_video" href="<?=base_url('admin/video/view_all')?>">
+                    <i class="iconfa-folder-open"></i> View All</a>
+            </li>
+            <li>
+                <a class="sub_menu_item" id="submenu_upload_video" href="<?=base_url('admin/video/upload')?>">
                     <i class="iconfa-upload"></i> Upload</a>
             </li>
 

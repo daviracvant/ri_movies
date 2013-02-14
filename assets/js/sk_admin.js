@@ -13,15 +13,18 @@ var sk_admin = function ()
             sk_admin.menu_item = "submenu_" + $("#menu_submenu").attr("data-item");
             sk_admin.submenu = $("#menu_submenu").attr("data-menu");
             sk_admin.menu = "menu_" + sk_admin.submenu;
-            console.log(sk_admin.menu);
-            console.log(sk_admin.submenu);
-            console.log(sk_admin.menu_item);
             sk_admin.url = $("#base_url").html();
             sk_admin.bind_events();
             sk_admin.set_sidebar();
         },
         bind_events: function()
         {
+            $(document).ready(function()
+                {
+                    sk_admin.setupTablesorter();
+                }
+            );
+
             $(".menu_icon").on("click", function () {
                 var accordion = $(this);
                 $(".menu_icon").each(function() {
@@ -52,11 +55,14 @@ var sk_admin = function ()
             {
                 window.location = sk_admin.url + "admin/music/upload";
             })
-            $("#music_upload").submit(function(event) {
+            $("#music_upload").submit(function(event)
+            {
+                $.blockUI();
                 event.preventDefault();
                 var option = {
                     success: function(response)
                     {
+                        $.unblockUI();
                         var data = [];
                         try {
                             data = $.parseJSON(response);
@@ -68,6 +74,36 @@ var sk_admin = function ()
                 }
                 $(this).ajaxSubmit(option);
             })
+            $("#video_upload").submit(function (event)
+            {
+                $.blockUI();
+                event.preventDefault();
+                var option = {
+                    success: function (response)
+                    {
+                        $.unblockUI();
+                        var data = [];
+                        try {
+                            data = $.parseJSON(response);
+                        } catch (error){
+                            alert(error);
+                        }
+                        bootbox.alert(data.message);
+                    }
+                }
+                $(this).ajaxSubmit(option);
+
+            })
+        },
+        setupTablesorter:function () {
+            $('table.tablesorter').each(function (i, e) {
+                var myHeaders = {}
+                $(this).find('th.nosort').each(function (i, e) {
+                    myHeaders[$(this).index()] = { sorter:false };
+                });
+
+                $(this).tablesorter({ widgets:['zebra'], headers:myHeaders });
+            });
         },
         set_sidebar: function ()
         {

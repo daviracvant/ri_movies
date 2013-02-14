@@ -6,11 +6,27 @@
  * Time: 12:04 AM
  * To change this template use File | Settings | File Templates.
  */
-class Lib_music
+class Lib_Music extends Lib_Loader {
+}
+class Lib_Music_Default extends Lib_default
 {
-    public function __construct() {
-        $this->load->model("music_model");
+    /**
+     * constructor.
+     */
+    public function __construct()
+    {
+        $dependency = array(
+            'library' => array('form_validation'),
+            'model' => array("menu_model","music_model"),
+            'helper' => array('string'),
+        );
+        $this->_set_dependencies($dependency);
+        $this->_load_dependencies();
     }
+}
+
+class Lib_Music_upload extends Lib_Music_Default
+{
 
     public function upload_music($user_id)
     {
@@ -20,13 +36,14 @@ class Lib_music
         }
         $type_cat = explode(":", $this->input->post("music_type"));
         $type_id = $type_cat[0];
-        if (!is_dir(APPPATH .'cache/'.$type_id))
+
+        if (is_dir('assets/music/upload/'.$type_id) == FALSE)
         {
-            if (mkdir(APPPATH .'cache/'.$type_id, 0777, true) == FALSE) {
+            if (mkdir('assets/music/upload/'.$type_id, 0777, true) == FALSE) {
                 return "Unable to create directory.";
             }
         }
-        $config['upload_path'] = APPPATH .'cache/'.$type_id;
+        $config['upload_path'] = 'assets/music/upload/'.$type_id;
         $config['allowed_types'] = 'mp3|wav|wma';
         $config['max_size']	= '10000';
         $this->load->library('upload', $config);
@@ -38,12 +55,13 @@ class Lib_music
         $data = $this->upload->data();
         $new_music = array(
             "member_id" => $user_id,
-            "singer_id" => 1,
+            "singer_id" => $this->input->post('music_singer'),
             "studio_id" => $this->input->post("music_studio"),
             "type_id" => $type_id,
             "title" => $this->input->post("title"),
             "release_date" => $this->input->post("release_date"),
             "path" => $type_id . '/' . $data['file_name'],
+            "extension" => $data["file_ext"],
             "created_on" => time(),
             "modified_on" => time(),
         );
@@ -97,3 +115,16 @@ class Lib_music
         return get_instance()->$var;
     }
 }
+
+class Lib_Music_List extends Lib_Music_Default
+{
+    public function get_all_songs()
+    {
+        $songs = $this->music_model->select_all_songs();
+        if (count($songs) == 0) {
+            throw new Lib_Music_Exception("No songs found.");
+        }
+        return $songs;
+    }
+}
+class Lib_Music_Exception extends Exception{}
